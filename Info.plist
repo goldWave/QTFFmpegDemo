@@ -1,0 +1,20 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>NSCameraUsageDescription</key>
+	<string>give me 摄像头</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>microphone 使用允许</string>
+</dict>
+</plist>-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>App需要您的同意,才能访问麦克风</string>
+</dict>
+</plist>
