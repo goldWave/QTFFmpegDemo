@@ -6,10 +6,10 @@
 由于代码数量太大，这里就不给出具体代码，只写出具体的流程逻辑，需要代码的可以到[github](https://github.com/goldWave/QTFFmpegDemo)下载
 
 ## 项目配置
-1. 由于使用Qt开发， 所有需要安装
-1.1 [Qt creator](https://www.qt.io/download)
-1.2 [FFmpeg](https://www.ffmpeg.org/download.html).  `win`: ffmpeg 下载 `shared` 文件. mac 直接brew 安装
-1.3  [SDL](https://www.libsdl.org/)。  fmpeg默认应该已经装了SDL
+1. 由于使用Qt开发， 所以需要安装
+ -  [Qt creator](https://www.qt.io/download)
+ - [FFmpeg](https://www.ffmpeg.org/download.html).  `win`: ffmpeg 下载 `shared` 文件. mac 直接brew 安装
+  -   [SDL](https://www.libsdl.org/)。  fmpeg默认应该已经装了SDL
 2.  `FFmpegDemo.pro` 中替换`ffmpeg`和`SDL`为自己的路径
 3. win 需要将dll拷贝到项目exe所在的目录 | 或者将  /bin目录加到环境变量里面
 4. `JBConst.cpp` 文件替换为自己的资源路径
