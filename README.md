@@ -1,5 +1,7 @@
 # 其他文件：ffmpeg命令行使用记录：[链接](https://github.com/goldWave/QTFFmpegDemo/blob/main/ffmpeg_command_lines.md)
 
+关于单独使用 apple 原生代码进行采集和硬编解码音视频的 demo可以参考 [这个工程](https://github.com/goldWave/AudioVideoStudy)
+
 # 简单介绍
 本项目主要是用`Qt` + `c++` + `ffmpeg` 写的**音视频采集**、**播放**、**编码**、**解码**、**解封装**的代码demo。
 每个按钮对应的文件均为相对独立的demo cpp文件。
